@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+/* members style for our team page
+----------------------------------
+
+
+*/
+.main{
+    width: 100%;
+}
+ .member1{
+    width: 33.33%;
+    padding:15px;
+    
+    float: left;
+    box-sizing: border-box;
+}
+ img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.head{
+    text-align: center;
+    font-size: 35px;
+    color:blue;
+
+}
+hr{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.info h2{
+    font-size: 18px;
+}
+.info h4{
+    font-size: 14px;
+    color: silver;
+}
+.info p{
+    text-justify:inter-word ;
+}
+/*end members in our team*/
+
+/* Nav style in Home Page*/
+nav .container{
+    width: 1200px;
+    margin:10px 40px;
+    position: fixed; 
+    margin:0 150px;
+   height: 2500px;
+   background-image: url("https://freellustrations-free-downloads.s3-us-west-1.amazonaws.com/free-images/thumbimg_25361957thumbejpg.jpg");
+   background-repeat: no-repeat;
+   background-size:contain;
+}
+
+nav .logo{
+    width: 50%;
+   float:left;
+   background:rgba(0, 0, 0, 0.2);
+   height: 75px;
+    padding-left:25px ;
+   line-height: 75px;
+   font-size: 25px;
+   color: white;
+}
+nav .menu{
+    float:right;
+    width:50%;
+    background: rgba(0, 0, 0, 0.2);
+    height: 75px;
+    color: white;
+
+}
+
+nav .menu ul li {
+
+  
+    list-style-type: none;
+    display: inline-block;
+   
+    right:5px;
+
+}
+nav .menu ul li a{
+text-decoration: none;
+color: white;
+display: inline-block;
+padding: 15px;
+
+   
+}
+nav .menu ul li a:hover{
+  
+   border-right:2px solid wheat;
+   border-left:2px solid wheat;
+   background-color: rgba(0 , 0, 0, .7);
+       
+    }
